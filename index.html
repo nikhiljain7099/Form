@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style1.css">
+    <title>Form</title>
+  </head>
+
+  <body>
+    <form>
+    <h1>Payment Form</h1>
+    <hr>
+    <h2>User Information</h2> 
+    <div class="name">
+        Name: *
+        <br>
+        <input type="text" placeholder="Nikhil Jain" required/></div>
+    <br />
+    <div class="gender">
+      <fieldset>
+        <legend>Gender</legend>
+        Male <input type="radio" name="Gender" required/> Female
+        <input type="radio" name="Gender" required/>
+      </fieldset>
+    </div>
+    <br />
+    <div class="address">
+      Address: 
+      <br>
+      <textarea placeholder="Enter your Address" cols="100" rows="10"></textarea>
+    </div>
+    <br />
+    <div class="email">
+        Email:<input type="email" placeholder="nikhil@gmail.com" required>
+    </div>
+    <br>
+    <div class="pincode">
+        Pincode:<input type="number" placeholder="123456" required>
+    </div>
+    <h2>Payment Information</h2>
+    Accepted Cards
+    <br>
+    
+    <img class="image1" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/363_Visa_Credit_Card_logo-512.png" alt="">
+    <img class="image2" src="https://img.favpng.com/21/5/13/american-express-logo-credit-card-payment-png-favpng-8tx6epUgjhQeNcJFzp5fhKgZQ.jpg" alt="">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/800px-Mastercard-logo.svg.png" alt="" class="image3">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Rupay-Logo.png" alt="" class="image4">
+    <br>
+    <br>
+    <div class="cardType">
+        Card Type:
+        <select required>
+            <option value="">--Select a Card Type--</option>
+            <option value="Rupay">Rupay</option>
+            <option value="Visa">Visa</option>
+            <option value="Master Card">Master Card</option>
+        </select>
+    </div>
+    <br>
+    <div class="cardNumber">
+        Card Number: *<input type="number" placeholder="1111-2222-3333-4444" required>
+    </div>
+    <br>
+    <div class="expiry">
+        Expiration Date<input type="date" required>
+    </div>
+    <br>
+    <div class="cvv">
+        CVV<input placeholder="123" type="password" required>
+    </div>
+    <br>
+    <div class="submit">
+        <input type="submit" value="Pay Now">
+    </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+hr{
+    border-color: rgb(231, 231, 231);
+}
+form{
+    background-color: rgb(242, 242, 242);
+    padding: 20px;
+    margin: 30px;
+    border: 1px solid;
+    border-color: rgb(231, 231, 231);
+}
+h1{
+    text-align: center;
+}
+.cardType select,.cardNumber input,.expiry input,.cvv input,.email input,.name input,.pincode input,.address textarea{
+    padding: 10px;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 4px ;
+    width: 100%;
+}
+
+fieldset{
+    background-color: white;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 3px;
+}
+
+.image1,.image3,.image4{
+    width: 30px;
+}
+.image2{
+    width: 40px;
+}
+/* 80 113 87 */
+input[type=submit]{
+    width: 100%;
+    border: 0px;
+    color:white;
+    background-color:#4daea1;
+    padding: 10px;
+    border-radius: 5px;
+}
